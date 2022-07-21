@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/NationalCard/Base/Office.aspx" hash="73ae13447" filehash="b93b3ec0b90c76ab" flags="110000" assembly="App_Web_office.aspx.fca1e55" type="ASP.base_office_aspx">
+    <filedeps>
+        <filedep name="/NationalCard/Base/Office.aspx" />
+        <filedep name="/NationalCard/Base/Office.aspx.cs" />
+    </filedeps>
+</preserve>

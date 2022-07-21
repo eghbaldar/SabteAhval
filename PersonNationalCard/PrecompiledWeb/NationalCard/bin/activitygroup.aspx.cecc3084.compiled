@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/NationalCard/Security/ActivityGroup.aspx" hash="73ae13447" filehash="2959b5048017d149" flags="110000" assembly="App_Web_activitygroup.aspx.cecc3084" type="ASP.security_activitygroup_aspx">
+    <filedeps>
+        <filedep name="/NationalCard/Security/ActivityGroup.aspx" />
+        <filedep name="/NationalCard/Security/ActivityGroup.aspx.cs" />
+    </filedeps>
+</preserve>

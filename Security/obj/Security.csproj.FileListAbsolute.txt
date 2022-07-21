@@ -1,0 +1,7 @@
+F:\SabteAhval Project\Security\bin\Debug\HNP.Security.dll
+F:\SabteAhval Project\Security\bin\Debug\HNP.Security.pdb
+F:\SabteAhval Project\Security\bin\Debug\PersonNationalCard.dll
+F:\SabteAhval Project\Security\bin\Debug\PersonNationalCard.pdb
+F:\SabteAhval Project\Security\obj\Debug\ResolveAssemblyReference.cache
+F:\SabteAhval Project\Security\obj\Debug\HNP.Security.dll
+F:\SabteAhval Project\Security\obj\Debug\HNP.Security.pdb

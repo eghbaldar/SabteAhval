@@ -1,0 +1,80 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DFAD5A95-7D06-4F28-9234-6526B3121784}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HNP.Security</RootNamespace>
+    <AssemblyName>HNP.Security</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HNP.Base, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Base\bin\Debug\HNP.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="HNP.DataProvider, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DataProvider\bin\Debug\HNP.DataProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="PersonNationalCard, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PersonNationalCard\bin\Debug\PersonNationalCard.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllCollection.cs" />
+    <Compile Include="Difinition\UserOffice.cs" />
+    <Compile Include="SecurityCollections.cs" />
+    <Compile Include="DataProvider\DeleteAction.cs" />
+    <Compile Include="DataProvider\InsertAction.cs" />
+    <Compile Include="DataProvider\SelectAction.cs" />
+    <Compile Include="DataProvider\UpdateAction.cs" />
+    <Compile Include="Difinition\Action.cs" />
+    <Compile Include="Difinition\Activity.cs" />
+    <Compile Include="Difinition\ActivityGroup.cs" />
+    <Compile Include="Difinition\ActivityType.cs" />
+    <Compile Include="Difinition\ActivityTypeAction.cs" />
+    <Compile Include="Difinition\Group.cs" />
+    <Compile Include="Difinition\User.cs" />
+    <Compile Include="Difinition\UserGroup.cs" />
+    <Compile Include="Entity\HierarchalAccount.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SecurityClassDiagram.cd">
+      <SubType>
+      </SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

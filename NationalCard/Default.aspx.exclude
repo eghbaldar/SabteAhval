@@ -1,0 +1,83 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+
+    <script language="javascript" type="text/javascript">
+    function insert(td)
+    {
+        debugger
+        var nid1 = document.getElementById('NID1');
+        var nid2 = document.getElementById('NID2');
+        var nid3 = document.getElementById('NID3');
+        alert(nid1.value.trim());
+        if(nid1.value.length < 3)
+        {
+            nid1.value = nid1.value + td.innerHTML;        
+        }
+        else
+        {
+            if(nid2.value.length < 6)
+            {
+                nid2.focus();
+                nid2.value = nid2.value + td.innerHTML;
+            }
+            else
+            {
+                if(nid3.value.length < 1)
+                {
+                    nid3.focus();
+                    nid3.value = nid3.value + td.innerHTML;
+                }
+            }
+        }
+    }
+    </script>
+
+    <form id="form1" runat="server">
+        <div>
+            <table width="90">
+                <tr>
+                    <td width="30" align="center" onclick="insert(this);">
+                        1</td>
+                    <td width="30" align="center" onclick="insert(this);">
+                        2</td>
+                    <td width="30" align="center" onclick="insert(this);">
+                        3</td>
+                </tr>
+                <tr>
+                    <td width="30" align="center" onclick="insert(this);">
+                        4</td>
+                    <td width="30" align="center" onclick="insert(this);">
+                        5</td>
+                    <td width="30" align="center" onclick="insert(this);">
+                        6</td>
+                </tr>
+                <tr>
+                    <td width="30" align="center" onclick="insert(this);">
+                        7</td>
+                    <td width="30" align="center" onclick="insert(this);">
+                        8</td>
+                    <td width="30" align="center" onclick="insert(this);">
+                        9</td>
+                </tr>
+                <tr>
+                    <td width="30" align="center" onclick="insert(this);">
+                        0
+                    </td>
+                    <td colspan=2 align="center">
+                        BackSpace
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <asp:TextBox ID="NID1" runat="server" Width="68px"></asp:TextBox>
+        <asp:TextBox ID="NID2" runat="server" Width="68px"></asp:TextBox>
+        <asp:TextBox ID="NID3" runat="server" Width="68px"></asp:TextBox>
+    </form>
+</body>
+</html>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/NationalCard/Login.aspx" hash="73ae13447" filehash="e1c522f01d338051" flags="110000" assembly="App_Web_login.aspx.cdcab7d2" type="ASP.login_aspx">
+    <filedeps>
+        <filedep name="/NationalCard/Login.aspx" />
+        <filedep name="/NationalCard/Login.aspx.cs" />
+    </filedeps>
+</preserve>

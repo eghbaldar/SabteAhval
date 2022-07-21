@@ -1,0 +1,11 @@
+obj\Debug\ResolveAssemblyReference.cache
+bin\Debug\HNP.Security.dll
+bin\Debug\HNP.Security.pdb
+bin\Debug\HNP.Base.dll
+bin\Debug\HNP.DataProvider.dll
+bin\Debug\HNP.DataProvider.pdb
+bin\Debug\HNP.Base.pdb
+obj\Debug\HNP.Security.dll
+obj\Debug\HNP.Security.pdb
+bin\Debug\PersonNationalCard.dll
+bin\Debug\PersonNationalCard.pdb

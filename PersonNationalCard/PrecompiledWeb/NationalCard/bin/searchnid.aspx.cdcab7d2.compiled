@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/NationalCard/SearchNID.aspx" hash="73ae13447" filehash="4b87f2fe3f2f6600" flags="110000" assembly="App_Web_searchnid.aspx.cdcab7d2" type="ASP.searchnid_aspx">
+    <filedeps>
+        <filedep name="/NationalCard/SearchNID.aspx" />
+        <filedep name="/NationalCard/SearchNID.aspx.cs" />
+    </filedeps>
+</preserve>

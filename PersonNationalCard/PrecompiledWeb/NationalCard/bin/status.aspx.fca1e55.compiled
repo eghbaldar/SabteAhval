@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/NationalCard/Base/Status.aspx" hash="73ae13447" filehash="4192c3b81802ece2" flags="110000" assembly="App_Web_status.aspx.fca1e55" type="ASP.base_status_aspx">
+    <filedeps>
+        <filedep name="/NationalCard/Base/Status.aspx" />
+        <filedep name="/NationalCard/Base/Status.aspx.cs" />
+    </filedeps>
+</preserve>

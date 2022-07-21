@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "F:\SabteAhval Project\NationalCard\", "NationalCard\", "{E7788B11-31E0-4748-A5E1-AF3125F322CF}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/NationalCard"
+		Debug.AspNetCompiler.PhysicalPath = "D:\Radman\SabteAhval Project\NationalCard\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\NationalCard\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/NationalCard"
+		Release.AspNetCompiler.PhysicalPath = "D:\Radman\SabteAhval Project\NationalCard\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\NationalCard\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "13769"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonNationalCard", "PersonNationalCard\PersonNationalCard.csproj", "{E995BF9E-BD94-478D-B884-961C288BC89E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security", "Security\Security.csproj", "{DFAD5A95-7D06-4F28-9234-6526B3121784}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7788B11-31E0-4748-A5E1-AF3125F322CF}.Debug|.NET.ActiveCfg = Debug|.NET
+		{E7788B11-31E0-4748-A5E1-AF3125F322CF}.Debug|.NET.Build.0 = Debug|.NET
+		{E7788B11-31E0-4748-A5E1-AF3125F322CF}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{E7788B11-31E0-4748-A5E1-AF3125F322CF}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{E7788B11-31E0-4748-A5E1-AF3125F322CF}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{E7788B11-31E0-4748-A5E1-AF3125F322CF}.Release|.NET.ActiveCfg = Debug|.NET
+		{E7788B11-31E0-4748-A5E1-AF3125F322CF}.Release|.NET.Build.0 = Debug|.NET
+		{E7788B11-31E0-4748-A5E1-AF3125F322CF}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{E7788B11-31E0-4748-A5E1-AF3125F322CF}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{E7788B11-31E0-4748-A5E1-AF3125F322CF}.Release|Mixed Platforms.Build.0 = Debug|.NET
+		{E995BF9E-BD94-478D-B884-961C288BC89E}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{E995BF9E-BD94-478D-B884-961C288BC89E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E995BF9E-BD94-478D-B884-961C288BC89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E995BF9E-BD94-478D-B884-961C288BC89E}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E995BF9E-BD94-478D-B884-961C288BC89E}.Release|.NET.ActiveCfg = Release|Any CPU
+		{E995BF9E-BD94-478D-B884-961C288BC89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E995BF9E-BD94-478D-B884-961C288BC89E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E995BF9E-BD94-478D-B884-961C288BC89E}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E995BF9E-BD94-478D-B884-961C288BC89E}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DFAD5A95-7D06-4F28-9234-6526B3121784}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{DFAD5A95-7D06-4F28-9234-6526B3121784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAD5A95-7D06-4F28-9234-6526B3121784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAD5A95-7D06-4F28-9234-6526B3121784}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DFAD5A95-7D06-4F28-9234-6526B3121784}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DFAD5A95-7D06-4F28-9234-6526B3121784}.Release|.NET.ActiveCfg = Release|Any CPU
+		{DFAD5A95-7D06-4F28-9234-6526B3121784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAD5A95-7D06-4F28-9234-6526B3121784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFAD5A95-7D06-4F28-9234-6526B3121784}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DFAD5A95-7D06-4F28-9234-6526B3121784}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

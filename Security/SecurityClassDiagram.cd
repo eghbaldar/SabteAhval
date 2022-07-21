@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="HNP.Security.Difinition.Action">
+    <Position X="1" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Difinition\Action.cs</FileName>
+      <HashCode>AAgAAAAAAAAgAAAAAAAAAAAAAAAAEAAAAAAEAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HNP.Security.Difinition.UserGroup">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Difinition\UserGroup.cs</FileName>
+      <HashCode>AAABAEAAAAAAAIABAAAAAAAAAAAAAAAQAIAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HNP.Security.Difinition.Activity">
+    <Position X="3" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Difinition\Activity.cs</FileName>
+      <HashCode>AAAAAAAAQAAAAAAAAgAAAAAQQEAAAAAQAAAAAAgQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HNP.Security.Difinition.ActivityGroup">
+    <Position X="4.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <FileName>Difinition\ActivityGroup.cs</FileName>
+      <HashCode>gAAAAEAAAAAAAAABAAAAAAABAgAAAAAEAAAAAEAAABA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HNP.Security.Difinition.ActivityType">
+    <Position X="5.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <FileName>Difinition\ActivityType.cs</FileName>
+      <HashCode>AAAAIAAAAAAAAAAACAAAAABAAABAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HNP.Security.Difinition.ActivityTypeAction">
+    <Position X="7" Y="3" Width="2" />
+    <TypeIdentifier>
+      <FileName>Difinition\ActivityTypeAction.cs</FileName>
+      <HashCode>AAAAAAAAABAABAAAAAAAgAAAQAAAAAAAAAAAAAgAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HNP.Security.Difinition.Group">
+    <Position X="7.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Difinition\Group.cs</FileName>
+      <HashCode>AAQACAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HNP.Security.Difinition.User">
+    <Position X="1" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <FileName>Difinition\User.cs</FileName>
+      <HashCode>AAAAAAAAACgAAEAAAAIAAAgAAAEAAAACAQBAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

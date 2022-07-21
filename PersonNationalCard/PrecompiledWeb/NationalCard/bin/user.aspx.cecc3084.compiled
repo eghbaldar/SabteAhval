@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/NationalCard/Security/User.aspx" hash="73ae13447" filehash="c733865172107450" flags="110000" assembly="App_Web_user.aspx.cecc3084" type="ASP.security_user_aspx">
+    <filedeps>
+        <filedep name="/NationalCard/Security/User.aspx" />
+        <filedep name="/NationalCard/Security/User.aspx.cs" />
+    </filedeps>
+</preserve>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/NationalCard/App_Themes/Default_Blue/" hash="73ae13447" filehash="c75c20d1908e84f1" flags="110000" assembly="App_Theme_Default_Blue" type="ASP.Default_Blue">
+    <filedeps>
+        <filedep name="/NationalCard/App_Themes/Default_Blue/" />
+    </filedeps>
+</preserve>

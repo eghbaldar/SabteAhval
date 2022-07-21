@@ -1,0 +1,91 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace PNationalCard.Definition
+{
+    [Serializable()]
+    public sealed class Office:HNP.Base.Interface.IDataBaseAction
+    {
+        private Int16 _OfficeID;
+        public Int16 OfficeID
+        {
+            get
+            {
+                return this._OfficeID;
+            }
+            set
+            {
+                this._OfficeID = value;
+            }
+        }
+
+        private string _OfficeName;
+        public string OfficeName
+        {
+            get
+            {
+                return this._OfficeName;
+            }
+            set
+            {
+                this._OfficeName = value;
+            }
+        }
+
+        private string _Address;
+        public string Address
+        {
+            get
+            {
+                return this._Address;
+            }
+            set
+            {
+                this._Address = value;
+            }
+        }
+
+        #region IDataBaseAction Members
+
+        bool HNP.Base.Interface.IDataBaseAction.Delete()
+        {
+            PNationalCard.DataProvider.DAL dal = new PNationalCard.DataProvider.DAL();
+            if (dal.DeleteOffice(this))
+            {
+                NCollections.Offices.Remove(this.OfficeID);
+            }
+            else
+            {
+                return false;
+            }
+
+        }
+
+        bool HNP.Base.Interface.IDataBaseAction.Insert()
+        {
+            throw new Exception("The method or operation is not implemented.");
+        }
+
+        bool HNP.Base.Interface.IDataBaseAction.Update()
+        {
+            throw new Exception("The method or operation is not implemented.");
+        }
+
+        #endregion
+    }
+
+    [Serializable()]
+    public sealed class OfficeCollection : HNP.Base.CollectionBaseClass<Int16, Office>
+    {
+        public override void Add(Office obj)
+        {
+            if (!this.dic.ContainsKey(obj.OfficeID))
+            {
+                this.dic.Add(obj.OfficeID, obj);
+                this._refresh = true;
+            }
+        }
+
+    }
+}

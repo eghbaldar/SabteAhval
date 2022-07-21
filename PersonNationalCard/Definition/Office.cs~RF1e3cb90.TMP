@@ -1,0 +1,82 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace PNationalCard.Definition
+{
+[Serializable()]
+public sealed class Office : Insurance.SingleBaseClass, Insurance.IBaseSingle
+{
+	private Int16 _OfficeID;
+	public Int16 OfficeID
+	{
+		get
+		{
+			return this._OfficeID;
+		}
+		set
+		{
+			this._OfficeID = value;
+		}
+	}
+
+	private string _OfficeName;
+	public string OfficeName
+	{
+		get
+		{
+			return this._OfficeName;
+		}
+		set
+		{
+			this._OfficeName = value;
+		}
+	}
+
+	private string _Address;
+	public string Address
+	{
+		get
+		{
+			return this._Address;
+		}
+		set
+		{
+			this._Address = value;
+		}
+	}
+
+        #region IBaseSingle Members
+
+        public bool Insert()
+        {
+            throw new Exception("The method or operation is not implemented.");
+        }
+
+        public bool Update()
+        {
+            throw new Exception("The method or operation is not implemented.");
+        }
+
+        public bool Delete()
+        {
+            throw new Exception("The method or operation is not implemented.");
+        }
+
+        #endregion
+}
+
+[Serializable()]
+public sealed class OfficeCollection : Insurance.CollectionBaseClass<Int16, Office>
+{
+	public override void Add(Office obj)
+	{
+		if (!this.dic.ContainsKey(obj.OfficeID))
+		{
+			this.dic.Add(obj.OfficeID, obj);
+			this._refresh = true;
+		}
+	}
+
+}
+}

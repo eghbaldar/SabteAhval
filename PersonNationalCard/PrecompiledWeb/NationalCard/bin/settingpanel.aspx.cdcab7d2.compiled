@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="3" virtualPath="/NationalCard/SettingPanel.aspx" hash="73ae13447" filehash="590352ac97e52661" flags="110000" assembly="App_Web_settingpanel.aspx.cdcab7d2" type="ASP.settingpanel_aspx">
+    <filedeps>
+        <filedep name="/NationalCard/SettingPanel.aspx" />
+        <filedep name="/NationalCard/SettingPanel.aspx.cs" />
+    </filedeps>
+</preserve>
